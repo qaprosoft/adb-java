@@ -67,7 +67,7 @@ install_build_tools() {
   echo "Unpacking platform tools" >&2
   unzip -d /opt "$TMPFILE"
   rm "$TMPFILE"
-  mv /opt/android-8.0.0 /opt/build-tools
+  mv /opt/android-8.1.0 /opt/build-tools
 
   echo "Build tools installed!" >&2
 }
